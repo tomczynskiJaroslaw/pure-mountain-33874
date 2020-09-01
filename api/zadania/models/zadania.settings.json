@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "zadanias",
+  "info": {
+    "name": "Zadania"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "tresc": {
+      "type": "richtext"
+    },
+    "obrazek": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

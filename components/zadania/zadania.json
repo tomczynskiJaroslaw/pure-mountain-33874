@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_zadania_zadanias",
+  "info": {
+    "name": "Zadania",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "tresc": {
+      "type": "richtext"
+    }
+  }
+}

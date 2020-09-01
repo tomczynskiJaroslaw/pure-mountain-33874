@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/zadanias",
+      "handler": "zadania.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zadanias/count",
+      "handler": "zadania.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/zadanias/:id",
+      "handler": "zadania.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/zadanias",
+      "handler": "zadania.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/zadanias/:id",
+      "handler": "zadania.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/zadanias/:id",
+      "handler": "zadania.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
